@@ -1,0 +1,42 @@
+<html>
+<head></head>
+<body>
+    <script>
+   /*var answer=prompt('And ypur name was');
+        console.log(answer);*/
+      /*  function boo(){
+            alert('Boo!');
+        }
+        console.log(setTimeout(
+boo,2000));
+        var Id=setTimeout(boo,2000);
+        clearTimeout(Id);*/
+        /*var id=setInterval(
+        function(){
+            alert('boo,boo');
+        },
+        2000
+        );
+       // console.log(id);*/
+        
+        function animateMe(){
+            webkitRequestAnimationFrame(function(){
+                console.log(new Date());
+                animateMe();
+            });
+        }
+        console.log(animateMe());
+        
+        
+    
+    
+    
+    </script>
+    
+    
+    
+    </body>
+
+
+
+</html>
